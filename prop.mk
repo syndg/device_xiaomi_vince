@@ -56,6 +56,10 @@ ro.vendor.qti.sys.fw.trim_enable_memory=2147483648 \
 ro.vendor.qti.sys.fw.use_trim_settings=true \
 vendor.vidc.enc.disable.pq=true
 
+# Boot
+PRODUCT_PROPERTY_OVERRIDES += \
+sys.vendor.shutdown.waittime=500
+
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
 camera.display.lmax=1280x720 \
