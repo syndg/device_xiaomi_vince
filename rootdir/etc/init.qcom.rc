@@ -393,3 +393,6 @@ service vendor.power_off_alarm /vendor/bin/power_off_alarm
 
 on property:dev.bootcomplete=1
     restart ril-daemon
+
+on property:apexd.status=ready
+    symlink /system/lib64/libashmemd_client.so /system/apex/com.android.media.swcodec/lib64/libashmemd_client.so
