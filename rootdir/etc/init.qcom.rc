@@ -135,7 +135,11 @@ on boot
     chown wifi wifi /sys/module/wlan/parameters/fwpath
 
     # Create hvdcp_opti directory
-    mkdir /mnt/vendor/persist/hvdcp_opti 0770 root system
+    mkdir /mnt/vendor/persist/hvdcp_opti 0770 root subsystem
+
+    # FPS Info
+    chown system graphics /sys/class/graphics/fb0/measured_fps
+    chmod 0666 /sys/class/graphics/fb0/measured_fps
 
 # msm specific files that need to be created on /data
 on post-fs-data
