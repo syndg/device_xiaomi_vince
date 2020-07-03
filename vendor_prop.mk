@@ -206,4 +206,9 @@ wifi.interface=wlan0
 
 # Wifi-Display
 PRODUCT_PROPERTY_OVERRIDES += \
-persist.sys.wfd.virtual=0
+persist.sys.wfd.virtual=10
+
+# havocOS maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.havoc.maintainer=KenHV
+
