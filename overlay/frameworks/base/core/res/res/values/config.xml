@@ -625,4 +625,7 @@
     <bool name="config_dozePulsePickup">true</bool>
     <bool name="config_dozePulseTilt">true</bool>
     <bool name="config_dozePulseProximity">true</bool>
+
+    <!-- Wired/BT headset focus mode -->
+    <bool name="config_deviceRingtoneFocusMode">true</bool>
 </resources>
