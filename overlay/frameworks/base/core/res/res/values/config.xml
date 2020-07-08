@@ -620,4 +620,9 @@
 
     <!-- We dont not have a multicolored LED -->
     <bool name="config_multiColorBatteryLed">false</bool>
+
+    <!-- Whether device supports sensor based doze customizations -->
+    <bool name="config_dozePulsePickup">true</bool>
+    <bool name="config_dozePulseTilt">true</bool>
+    <bool name="config_dozePulseProximity">true</bool>
 </resources>
