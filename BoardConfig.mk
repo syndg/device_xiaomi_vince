@@ -173,6 +173,9 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/vintf/android.hardware.gnss@2.0-service-q
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/vintf/vendor.qti.gnss@3.0-service.xml
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/vintf/vendor.qti.esepowermanager@1.0-service.xml
 
+# HWUI
+HWUI_COMPILE_FOR_PERF := true
+
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
