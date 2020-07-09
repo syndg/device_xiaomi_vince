@@ -9,6 +9,9 @@
 /dev/socket/fpce(/.*)?				u:object_r:fpce_socket:s0
 /sys/devices(/platform)?/soc/soc:fpc1020(/.*)?		u:object_r:fpc_sysfs:s0
 
+# FPS tile
+/sys/devices/virtual/graphics/fb0/measured_fps                         u:object_r:sysfs:s0
+
 # Glove Mode
 /sys/class/tp_glove/device(/.*)?		u:object_r:proc_touchpanel:s0
 /sys/devices/virtual/tp_glove(/.*)?		u:object_r:proc_touchpanel:s0
@@ -22,10 +25,13 @@
 /persist/data/gxfp(/.*)?			u:object_r:gx_fpd_data_file:s0
 
 # Ir
-/dev/lirc[0-9]*					u:object_r:lirc_device:s0
+/dev/peel_ir					u:object_r:lirc_device:s0
 
 # Legacy root dirs
 /firmware(/.*)?                                 u:object_r:firmware_file:s0
+
+# Power HAL
+/sys/devices(/platform)?/soc/78b7000\.i2c/i2c-3/3-0020/input/input[0-9]+/wake_gesture     u:object_r:sysfs_tap_to_wake:s0
 
 # Rild
 /(vendor|system/vendor)/radio/qcril_database/qcril.db			u:object_r:rild_file:s0
@@ -35,6 +41,6 @@
 
 # Sys files
 /sys/devices(/platform)?/soc/78b6000\.i2c/i2c-2/2-[0-9a-f]+/leds(/.*)?		u:object_r:sysfs_leds:s0
-/sys/devices(/platform)?/soc/78b7000\.i2c/i2c-3/3-[0-9a-f]+/disable_keys            u:object_r:proc_touchpanel:s0
 /sys/devices(/platform)?/soc/leds-qpnp-[0-9]+/leds(/.*)?				u:object_r:sysfs_leds:s0
 /sys/devices(/platform)?/soc/78b7000\.i2c/i2c-3/3-[0-9a-f]+/enable_dt2w		u:object_r:proc_touchpanel:s0
+/sys/devices(/platform)?/soc/78b7000\.i2c/i2c-3/3-[0-9a-f]+/disable_keys         u:object_r:proc_touchpanel:s0

@@ -1,5 +1,9 @@
 # FM radio needs to set fm properties
 set_prop(system_app, fm_prop)
 
+# FPS tile
+allow system_app sysfs_fpsinfo:file rw_file_perms;
+allow system_app sysfs:file { read open getattr };
+
 # zram
 r_dir_file(system_app sysfs_zram)
