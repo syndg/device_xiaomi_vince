@@ -10,7 +10,7 @@
 /sys/devices(/platform)?/soc/soc:fpc1020(/.*)?		u:object_r:fpc_sysfs:s0
 
 # FPS tile
-/sys/devices/virtual/graphics/fb0/measured_fps                         u:object_r:sysfs:s0
+/sys/devices/virtual/graphics/fb0/measured_fps           u:object_r:sysfs_fps:s0
 
 # Glove Mode
 /sys/class/tp_glove/device(/.*)?		u:object_r:proc_touchpanel:s0

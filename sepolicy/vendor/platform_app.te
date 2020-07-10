@@ -2,4 +2,3 @@ allow platform_app system_app_data_file:dir getattr;
 
 # FPS tile
 allow platform_app sysfs_fps:file { getattr open read };
-allow platform_app sysfs_graphics:dir search;
