@@ -27,6 +27,8 @@
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
+# Remove settings cache, avoids derps after dirty flash
+rm -rf /data/system/package_cache
 
 #
 # Make modem config folder and copy firmware config to that folder for RIL
@@ -51,6 +53,3 @@ if [ ! -f /vendor/firmware_mnt/verinfo/ver_info.txt -o "$prev_version_info" != "
 fi
 chmod g-w /data/vendor/modem_config
 setprop ro.vendor.ril.mbn_copy_completed 1
-
-# Remove settings cache, avoids derps after dirty flash
-rm -rf /data/system/package_cache
