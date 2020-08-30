@@ -34,6 +34,10 @@
 # Legacy root dirs
 /firmware(/.*)?                                 u:object_r:firmware_file:s0
 
+# Perf
+/(vendor|system/vendor)/bin/hw/vendor\.qti\.hardware\.perf@2\.1-service                                 u:object_r:hal_perf_default_exec:s0
+/vendor/lib(64)?/vendor\.qti\.hardware\.perf@2\.1\.so                                                   u:object_r:same_process_hal_file:s0
+
 # Power HAL
 /sys/devices(/platform)?/soc/78b7000\.i2c/i2c-3/3-0020/input/input[0-9]+/wake_gesture     u:object_r:sysfs_tap_to_wake:s0
 
