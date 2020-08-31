@@ -758,6 +758,14 @@ vendor/bin/hw/android.hardware.drm@1.2-service.widevine|b626d9bbf7043c66c8ef903c
 vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|75335443a33a06a03eecfa714dfe9f1c0c4df2b1
 vendor/lib64/libwvhidl.so|4af61fdcf1186700ea7ee23c607fb9ce5fd0f0e8
 
+# ESE-Powermanager - from LA.UM.8.6.2.r1-07600-89xx.0
+vendor/bin/hw/vendor.qti.esepowermanager@1.0-service|a5b8d74b2374ea757c90bbbe450e34533fb6c137
+vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc|58a3866ad5a7613d9392c9adb671eaa7825578a2
+vendor/lib/hw/vendor.qti.esepowermanager@1.0-impl.so|aa3984ea0f3e5a4062fc95e261fe21ddc9e1f670
+vendor/lib/vendor.qti.esepowermanager@1.0.so|4182f556a9c30900231505a53afc04ec13afe388
+vendor/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so|34206c519a4ccd08545921d68db74b22ab3a0a93
+vendor/lib64/vendor.qti.esepowermanager@1.0.so|b5b39c4f3aedc09bced70f0348980e3eccd71fca
+
 # Fingerprint - from vince
 etc/firmware/goodix_firmware.bin:vendor/firmware/goodix_firmware.bin|cbd87b30f72e82adf87537fe93911fb2d70bce84
 lib/android.hardware.biometrics.fingerprint@2.1.so:vendor/lib/android.hardware.biometrics.fingerprint@2.1.so|3e17bdd951d2c1a2e86010a44717b46963e397df
@@ -919,9 +927,27 @@ vendor/firmware/a506_zap.mdt|621df918f1d6ef0a0c3fe25c8f6a58d56af4b26a
 vendor/firmware/a530_pfp.fw|d027c70fde64241ec13160d09ee1b6c272974a4b
 vendor/firmware/a530_pm4.fw|b1cf625b5552b99839687f479c124ac5daca2ca2
 
+# IOP - from LA.UM.8.6.2.r1-07600-89xx.0
+vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so|6e42e6b3555e47c730a69fd5522099c5729b272a
+vendor/lib/libqti-iopd-client.so|30c7d57636921ddcec6df17fcb378a4a04eefe42
+vendor/lib/vendor.qti.hardware.iop@1.0.so|afdf35bf0d91fa1e37700a938b4bbba8d6eefe0f
+vendor/lib/vendor.qti.hardware.iop@2.0.so|25cfe22f829d1b5288c574a852acc20478a91f74
+vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so|1f087eb93b9ce0f0ee7fdaf6351f5f71f7db1150
+vendor/lib64/libqti-iopd-client.so|fc9878267908f9843882891f902c4d37fee760dd
+vendor/lib64/vendor.qti.hardware.iop@1.0.so|2f320d5b31a8d90ead4f1063435ff6608b3b144f
+vendor/lib64/vendor.qti.hardware.iop@2.0.so|7fdc8d9219a6d7a335fc91edb4837bccbac9fc49
+
 # Keystore - from LA.UM.8.6.r1-04400-89xx.0
 vendor/lib/hw/keystore.msm8953.so|9d4ae263688bcf3f4555255ff2f243f9bdff2032
 vendor/lib64/hw/keystore.msm8953.so|265cd4d0246f5e2e80916dd1c96262be28306b31
+
+# Latency - from LA.UM.8.6.2.r1-07600-89xx.0
+product/framework/vendor.qti.hardware.data.latency-V1.0-java.jar|c6c5d5bbf50b068df0184aef8551b95daa5f4791
+product/framework/vendor.qti.latency-V2.0-java.jar|d345e24271b83faecdb1abe1361db812fae0646f
+product/lib64/vendor.qti.hardware.data.latency@1.0.so|ae979b52234d7e965631394f6e1887a910ce0d36
+product/lib64/vendor.qti.latency@2.0.so|20a3037a1aea98f5f490b14c8f5620d2d3a0cf57
+vendor/lib64/vendor.qti.hardware.data.latency@1.0.so|b5eb170acad879f5cb1c37383bd7a868960cae77
+vendor/lib64/vendor.qti.latency@2.0.so|fe4691e922ec926bd723ac79e6a11ba1d75db75a
 
 # Listen - from LA.UM.8.6.r1-04400-89xx.0
 vendor/lib/hw/sound_trigger.primary.msm8953.so|53425351a1e5845ae4aafaf2db8206a801aa25a0
@@ -1161,6 +1187,42 @@ vendor/etc/init/imsqmidaemon.rc|dda16d842b7c65296e97bc9921b723a43b152ba3
 vendor/etc/init/imsrcsd.rc|2dc42ff6e4b6dd389bd3bc9a7af30dec2f1a45df
 vendor/lib64/vendor.qti.ims.rcsconfig@1.1.so|936011dbcfd05ea9350f7410bb6f4d69ddd3fb61
 
+# SCVE - from LA.UM.8.6.2.r1-07600-89xx.0
+product/lib/vendor.qti.hardware.scve.objecttracker@1.0-adapter-helper.so|97ff4c73cfc6f35c2bb8d0f856ff94861b9bc743
+product/lib/vendor.qti.hardware.scve.objecttracker@1.0.so|ce0a4105a89b59e8eeccaa8bd613ec0a0a418352
+product/lib/vendor.qti.hardware.scve.panorama@1.0-adapter-helper.so|114d426a70fdce7b682b745a7883d6bd36826a90
+product/lib/vendor.qti.hardware.scve.panorama@1.0.so|75573ce58abb6734f0c402d1f1ff89d7a373273c
+product/lib64/vendor.qti.hardware.scve.objecttracker@1.0-adapter-helper.so|e89f71d9c13b4e786c5f0e53a48fd5e904aa6d08
+product/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so|0c0b59128e49ab37fd3683e5637b78b4885de986
+product/lib64/vendor.qti.hardware.scve.panorama@1.0-adapter-helper.so|bfccb8aafa34a23cae702e92e407614ef2e0c2a2
+product/lib64/vendor.qti.hardware.scve.panorama@1.0.so|a3afd70cdb872f86dbc67cc05f287b57e8057102
+vendor/lib/libscveBlobDescriptor.so|0afe5c5b2d4b68f853d920ae13aaef6dbb0a6c82
+vendor/lib/libscveBlobDescriptor_stub.so|ae73faad7aac56bd6092d4101b5f94ee07fb9778
+vendor/lib/libscveCommon.so|67f25579aca75ba555ec6fe069b1aebd6c77f4b7
+vendor/lib/libscveCommon_stub.so|db2a1085df6fca1227bb5ae8692a016bf3f349bc
+vendor/lib/libscveObjectSegmentation.so|6abb4a7031895a59ed5bbde8054c8b63fd6a0d25
+vendor/lib/libscveObjectSegmentation_stub.so|22f8dae40921084d0c7015be86f507fae1fd7a7d
+vendor/lib/libscveObjectTracker.so|1890431e4ca076c2fb1bc9d3276c2eb52b2d87d3
+vendor/lib/libscveObjectTracker_stub.so|16443dc9e2b322c1d41a3f6ca7f84e63b03c03ef
+vendor/lib/libscvePanorama.so|88310b3c2bd9e0605782dcf54dee7650ad1a4dbe
+vendor/lib/libscvePanorama_lite.so|05d31892de5465a4e8efb0f86a35570b0fb5b6bd
+vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so|3e9c52069ff07e50191d3b3afb33b30409241ab6
+vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so|944169db3ac67056b92ef4f850f69346958370b5
+vendor/lib/rfsa/adsp/libscveT2T_skel.so|91b9200dbb982abf0d6b440668252d892a616f66
+vendor/lib/vendor.qti.hardware.scve.objecttracker@1.0.so|d5502a8575c471596ca56b59cbfc9bdacab184f3
+vendor/lib/vendor.qti.hardware.scve.panorama@1.0.so|16d295502f29dc0823ee742f0874fd99114c0400
+vendor/lib64/libscveBlobDescriptor.so|72661600356de2ab68f8b3df42e6e667d7ba5365
+vendor/lib64/libscveCommon.so|5372998421c1e0dfa0ecf729e57a5256b378aed2
+vendor/lib64/libscveCommon_stub.so|63b46b8076971ebc95ba4d426ce694f3e02b5f87
+vendor/lib64/libscveObjectSegmentation.so|18b4b6eeedec7f13c31cff50249eaf009b9767f2
+vendor/lib64/libscveObjectSegmentation_stub.so|e92865a35364ae1ec647337ed44e952639d5cc73
+vendor/lib64/libscveObjectTracker.so|e3debe7dd4b4846fbc649cdd6bca5b0ae9746b74
+vendor/lib64/libscveObjectTracker_stub.so|8867ee697681c82c55762a18bfc447c7a2555811
+vendor/lib64/libscvePanorama.so|1c92af5a0b8ab9d2acf5484d02f8db4b92e1f45c
+vendor/lib64/libscvePanorama_lite.so|66a74d3b441bb2e8e5011187f0b2e40bcb77693c
+vendor/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so|f0fd75e94929412ae02cb32c38b05faef8cfd259
+vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so|ad0bfe312f3d63cf5414087fb2aef4459ec72183
+
 # Sensors - from LA.UM.8.6.r1-04400-89xx.0
 vendor/bin/sensors.qti|8915364094374f542e1eb7ad361ab2cb5349afbe
 vendor/lib/hw/activity_recognition.msm8953.so|824eb490aee2203d33ea5d864e49b916474cd13e
@@ -1173,6 +1235,16 @@ vendor/lib64/libsensor1.so|4a63118bc426116643216c5f43f70ce0cd52d537
 vendor/lib64/libsensor_reg.so|b977629681598d927830ed99986e818c01c2d34a
 vendor/lib64/libsensor_user_cal.so|a9cd76f06c02e23cb7f1552aa7d51567259faa47
 vendor/lib64/sensors.ssc.so|3642d92d56cd7b21720ff9d11a008040c16e5c5d
+
+# Soter - from LA.UM.8.6.2.r1-07600-89xx.0
+product/framework/vendor.qti.hardware.soter-V1.0-java.jar|e0a20a638cac4e369a29157ea4aa44b1e5d60f8f
+product/lib64/vendor.qti.hardware.soter@1.0.so|13da30a401fc16c80ec4e3d236194fbfad2270cf
+vendor/bin/hw/vendor.qti.hardware.soter@1.0-service|37f9501fa45a69ba3a27fd338704d76afc534bcb
+vendor/bin/SoterProvisioningTool|4960fac09711d24fc98446c3d774cd1e3a12351e
+vendor/bin/vendor.qti.hardware.soter@1.0-provision|ebbcfadcc416efd96cddb63068c6053d9730b21d
+vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc|76447a61ad5529949365eeb7e8ca000e48bd28ae
+vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so|2396c3cb39d76bd60b375195a9a08ca94659d60a
+vendor/lib64/vendor.qti.hardware.soter@1.0.so|b08f0d2e92e0adce42127b5f978fa6bb22326ce1
 
 # Thermal - from Onclite PKQ1.181021.001/V10.2.5.0.PFLCNXM
 vendor/bin/thermal-engine|562035759ae60b3c5267a01293f1aeaa3f40c44b
