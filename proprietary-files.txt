@@ -944,10 +944,10 @@ vendor/lib64/hw/keystore.msm8953.so|265cd4d0246f5e2e80916dd1c96262be28306b31
 # Latency - from LA.UM.8.6.2.r1-07600-89xx.0
 product/framework/vendor.qti.hardware.data.latency-V1.0-java.jar|c6c5d5bbf50b068df0184aef8551b95daa5f4791
 product/framework/vendor.qti.latency-V2.0-java.jar|d345e24271b83faecdb1abe1361db812fae0646f
-product/lib64/vendor.qti.hardware.data.latency@1.0.so|ae979b52234d7e965631394f6e1887a910ce0d36
-product/lib64/vendor.qti.latency@2.0.so|20a3037a1aea98f5f490b14c8f5620d2d3a0cf57
-vendor/lib64/vendor.qti.hardware.data.latency@1.0.so|b5eb170acad879f5cb1c37383bd7a868960cae77
-vendor/lib64/vendor.qti.latency@2.0.so|fe4691e922ec926bd723ac79e6a11ba1d75db75a
+product/lib64/vendor.qti.hardware.data.latency@1.0.so|53794a8d4dfeb0fbd233a4b128749a06d515c3f7
+product/lib64/vendor.qti.latency@2.0.so|0144eec541989f450695ec8cbdd595df4009fe1a
+vendor/lib64/vendor.qti.hardware.data.latency@1.0.so|ae979b52234d7e965631394f6e1887a910ce0d36
+vendor/lib64/vendor.qti.latency@2.0.so|20a3037a1aea98f5f490b14c8f5620d2d3a0cf57
 
 # Listen - from LA.UM.8.6.r1-04400-89xx.0
 vendor/lib/hw/sound_trigger.primary.msm8953.so|53425351a1e5845ae4aafaf2db8206a801aa25a0
@@ -974,19 +974,19 @@ vendor/lib/libOmxWmaDec.so|4285c349bf86b2efc50258658cbfb8ea51db50eb
 -vendor/lib/libgpustats.so|b0cbb0338e92bd945677fea9da78b150b5529301
 vendor/lib/libmm-color-convertor.so|a6c914904f8dde363e4e7986277d29a22fb0041a
 vendor/lib/libvqzip.so|fcc628722fba3689d6ccadb9d7ed2d0dc543051b
-vendor/lib64/libI420colorconvert.so|4bc770282c972ce45a5b4cc829ee30f428fbe9f5
-vendor/lib64/libOmxAacDec.so|dd6ee18b7b084b075f43dae935edd2930de42801
-vendor/lib64/libOmxAlacDec.so|ec26bfa05dcde728b90289955f393f3543f4cefd
-vendor/lib64/libOmxAlacDecSw.so|d804c52a7dde1b9fd97eb2d4ce7b1d70399db7ef
-vendor/lib64/libOmxAmrDec.so|c608c3a7d22731958aa4ee8d77212652dab98d9d
-vendor/lib64/libOmxAmrwbplusDec.so|2b3f1e9904d9699cb27b8870ed8902f231c32109
-vendor/lib64/libOmxApeDec.so|4d849665417c65b54c41e555d682727eb67bd52d
-vendor/lib64/libOmxApeDecSw.so|9c405b4c7a857d57c7a182bc8f131c8e2b1c1fd4
-vendor/lib64/libOmxEvrcDec.so|61b134ee59513e4dd13e1c5d2bb87119aa5473bd
-vendor/lib64/libOmxQcelp13Dec.so|dd49878063499adf50fa87abbee160ec5091d6fd
-vendor/lib64/libOmxWmaDec.so|9610a29440a33e6dfca61d330d0d82c9bbe78b03
+vendor/lib64/libI420colorconvert.so|296987a0fc833ead9db3640ef2de42d7126782fb
+vendor/lib64/libOmxAacDec.so|0f0f3c9d8f285318a1d229c8ebc290810782d21c
+vendor/lib64/libOmxAlacDec.so|a3783f6cce2da0a3a2043407fa7c12c8c78e442e
+vendor/lib64/libOmxAlacDecSw.so|971b09afca162ed63cd6447cdc4ab66e1b58391b
+vendor/lib64/libOmxAmrDec.so|c330f9573718b48874cb7124a2227a3d74e7a7e8
+vendor/lib64/libOmxAmrwbplusDec.so|88d832647ed41b159c602acff711229de8c62044
+vendor/lib64/libOmxApeDec.so|6dd801d0a0c58e92ab3679e937854ee2d96e18aa
+vendor/lib64/libOmxApeDecSw.so|03885e69606e7e868fe9d1245dac5651c301a567
+vendor/lib64/libOmxEvrcDec.so|dfbf3ad5e84218c16cdd5f0ea5b60bc87906e9ee
+vendor/lib64/libOmxQcelp13Dec.so|01786938265bd0de9adef15f695102333fca60a5
+vendor/lib64/libOmxWmaDec.so|32e1b9c72d0b0a8b74978e1687b701e18030d68a
 -vendor/lib64/libgpustats.so|dd2ecc6c5ef439a8d427a52ab9d153f8e747deff
-vendor/lib64/libmm-color-convertor.so|60efd198ec7461154746c5987e5a267f12f8dbc1
+vendor/lib64/libmm-color-convertor.so|d3539eb5a6a986f8ba81bac9cbf7b34872b12f1a
 
 # Novatek touchscreen firmware
 etc/firmware/novatek_ts_fw.bin:vendor/firmware/novatek_ts_fw.bin
