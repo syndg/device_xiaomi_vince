@@ -330,6 +330,7 @@ PRODUCT_PACKAGES += \
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
+    fstab.recovery.qcom \
     init.goodix.sh \
     init.msm.usb.configfs.rc \
     init.qcom.early_boot.sh \
@@ -338,6 +339,8 @@ PRODUCT_PACKAGES += \
     init.qcom.sh \
     init.qcom.usb.rc \
     init.qcom.usb.sh \
+    init.recovery.qcom.rc \
+    init.recovery.qcom.usb.rc \
     init.target.rc \
     ueventd.qcom.rc
 
