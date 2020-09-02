@@ -1,0 +1,7 @@
+[
+    {
+        "remote": "havoc",
+        "repository": "android_packages_apps_Dirac",
+        "target_path": "packages/apps/Dirac"
+    }
+]
