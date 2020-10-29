@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2017-2019 The LineageOS Project
+# Copyright (C) 2017-2019 The ShapeShiftOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/fluid_vince.mk
+    $(LOCAL_DIR)/ssos_vince.mk
 
 COMMON_LUNCH_CHOICES := \
-    fluid_vince-user \
-	fluid_vince-userdebug \
-    fluid_vince-eng
+    ssos_vince-user \
+	ssos_vince-userdebug \
+    ssos_vince-eng
