@@ -24,6 +24,9 @@ $(call inherit-product, device/xiaomi/vince/device.mk)
 # Inherit some common ssos stuff.
 $(call inherit-product, vendor/ssos/config/common_full_phone.mk)
 
+# OFFICIAL
+SSOS_BUILD_TYPE := OFFICIAL
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := vince
 PRODUCT_NAME := ssos_vince
