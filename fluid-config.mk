@@ -1,7 +1,8 @@
 # Some common FLuid Flags
 
 # Gapps flags
-#TARGET_INCLUDE_GAPPS := true
+TARGET_INCLUDE_GAPPS := true
+$(call inherit-product, vendor/gms/gms_full.mk)
 #TARGET_GAPPS_ARCH := arm64
 #IS_PHONE := true
 
